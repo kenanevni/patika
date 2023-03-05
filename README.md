@@ -21,3 +21,18 @@ use - or * for un ordered list left blank after sign
 ## h2 sample
 
 ### h3 sample
+
+#### code 
+
+`code`
+
+##### code block
+
+```
+System.out.println("hello world!")
+```
+[custom link- google](www.google.com)
+
+image sample
+
+![Google Image](https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
