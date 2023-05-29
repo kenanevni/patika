@@ -1,3 +1,3 @@
---1
+--part one
 SELECT city.city, country.country from city 
-JOIN country ON city.country_id = country.country_id //ok
+JOIN country ON city.country_id = country.country_id
