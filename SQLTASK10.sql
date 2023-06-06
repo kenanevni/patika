@@ -15,3 +15,7 @@ RIGHT JOIN payment on payment.customer_id = customer.customer_id;
 --Write the FULL JOIN query where we can see the customer table and the rental_id
 --in the rental table and the first_name and last_name names in the customer table together.
 
+SELECT rental.rental_id, customer.first_name AS ADI, customer.last_name
+ AS SOYADI from rental FULL JOIN customer on customer.customer_id = rental.customer_id
+
+
