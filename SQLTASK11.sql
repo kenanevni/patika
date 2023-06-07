@@ -9,3 +9,8 @@ SELECT first_name FROM customer;
 SELECT first_name FROM actor
 INTERSECT
 SELECT first_name FROM customer;
+
+--TASK3
+--For the first_name columns in the actor and customer tables,
+--let's sort the data in the first table but not in the second table.
+
