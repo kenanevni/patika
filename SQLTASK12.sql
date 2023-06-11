@@ -18,3 +18,5 @@ rental_rate = (SELECT MAX(rental_rate) from film);
 SELECT title, rental_rate, replacement_cost from film
 WHERE rental_rate = (SELECT MIN(rental_rate) from film ) and
 replacement_cost =(SELECT MIN(replacement_cost) from film );
+--task4
+--In the payment table, list the customers who make the most purchases.
