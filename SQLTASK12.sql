@@ -8,3 +8,6 @@ WHERE length > ALL
 
 --TASK2
 --How many movies have the highest rental_rate in the film table?
+SELECT MAX(rental_rate), COUNT(rental_rate) from film
+where
+rental_rate = (SELECT MAX(rental_rate) from film);
