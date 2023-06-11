@@ -11,3 +11,6 @@ WHERE length > ALL
 SELECT MAX(rental_rate), COUNT(rental_rate) from film
 where
 rental_rate = (SELECT MAX(rental_rate) from film);
+
+--task3
+--In the film table, list the films with the lowest rental rate and the lowest replacement cost.
