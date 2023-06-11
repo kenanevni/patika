@@ -14,3 +14,7 @@ rental_rate = (SELECT MAX(rental_rate) from film);
 
 --task3
 --In the film table, list the films with the lowest rental rate and the lowest replacement cost.
+
+SELECT title, rental_rate, replacement_cost from film
+WHERE rental_rate = (SELECT MIN(rental_rate) from film ) and
+replacement_cost =(SELECT MIN(replacement_cost) from film );
