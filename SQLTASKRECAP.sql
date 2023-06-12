@@ -22,3 +22,6 @@ JOIN payment ON customer.customer_id = payment.customer_id
 GROUP BY payment.customer_id,customer.first_name
 ORDER BY COUNT(customer.customer_id) DESC
 LIMIT 1;
+
+--TASK4
+--Sort the category names and the number of movies per category from the category table.
