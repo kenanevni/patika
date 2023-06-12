@@ -9,3 +9,7 @@ LIMIT 4;
 --TASK2
 --Which rating category has the largest number of movies in the film table?
 
+SELECT COUNT(*),rating FROM film
+GROUP BY rating
+ORDER BY COUNT(*) DESC
+LIMIT 1;
