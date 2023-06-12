@@ -29,3 +29,6 @@ LIMIT 1;
 SELECT category.name, COUNT (film_category.category_id )FROM category
 JOIN film_category ON category.category_id = film_category.category_id
 GROUP BY category.name;
+
+--TASK5
+--How many movies in the film  table have at least 4 'e' or 'E' characters in their titles?
