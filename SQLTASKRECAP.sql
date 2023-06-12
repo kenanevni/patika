@@ -25,3 +25,7 @@ LIMIT 1;
 
 --TASK4
 --Sort the category names and the number of movies per category from the category table.
+
+SELECT category.name, COUNT (film_category.category_id )FROM category
+JOIN film_category ON category.category_id = film_category.category_id
+GROUP BY category.name;
