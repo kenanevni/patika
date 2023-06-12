@@ -13,3 +13,6 @@ SELECT COUNT(*),rating FROM film
 GROUP BY rating
 ORDER BY COUNT(*) DESC
 LIMIT 1;
+
+--task3
+--What is the name of the customer who made the most purchases in the customer table?
