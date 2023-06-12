@@ -32,3 +32,6 @@ GROUP BY category.name;
 
 --TASK5
 --How many movies in the film  table have at least 4 'e' or 'E' characters in their titles?
+
+SELECT COUNT(*) from film
+WHERE title ILIKE '%e%e%e%e';
