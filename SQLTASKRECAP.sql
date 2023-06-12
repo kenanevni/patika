@@ -16,3 +16,9 @@ LIMIT 1;
 
 --task3
 --What is the name of the customer who made the most purchases in the customer table?
+
+SELECT payment.customer_id,customer.first_name, COUNT(customer.customer_id) FROM customer
+JOIN payment ON customer.customer_id = payment.customer_id
+GROUP BY payment.customer_id,customer.first_name
+ORDER BY COUNT(customer.customer_id) DESC
+LIMIT 1;
