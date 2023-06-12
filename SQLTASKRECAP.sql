@@ -5,3 +5,7 @@ SELECT title, length, replacement_cost FROM film
 WHERE title LIKE 'K%'
 ORDER BY length DESC, replacement_cost ASC
 LIMIT 4;
+
+--TASK2
+--Which rating category has the largest number of movies in the film table?
+
