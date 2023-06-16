@@ -23,6 +23,8 @@ public class ExamResult {
 
         //calculate average
         double avr = (math + physics + chem + eng + hist + mus) / 6;
+        //added boolean for result check
+        boolean passed = avr >=60;
 
 
 
