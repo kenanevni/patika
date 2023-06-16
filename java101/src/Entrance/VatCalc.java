@@ -4,24 +4,20 @@ import java.util.Scanner;
 
 public class VatCalc {
     public static void main(String[] args) {
-        /* VAT Amount Calculator Program
-Write a program that calculates the VAT value and the VAT amount of the money value
-received from the user with Java and prints it on the screen.
-(Note: Take the VAT amount as 18%)
-Price without VAT = 10;
+        //If the amount entered is between 0 and 1000 TL, the VAT rate is 18%,
+        // if the amount is greater than 1000 TL, write the program that calculates the VAT amount as 8%.
 
-Price with VAT = 11.8;
-
-VAT amount = 1.8;
-        */
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter price");
         double priceWithOutTax = input.nextDouble();
         double vatRate1 = 1.18;
-        double priceWithTax = priceWithOutTax * vatRate1;
-        double vatAmount = priceWithTax-priceWithOutTax;
+        double vatRate2 = 1.08;
+        boolean vatRateCheck = priceWithOutTax > 0 && priceWithOutTax <=1000;
+        double  vatRate = vatRateCheck ? vatRate1 : vatRate2;
+        double priceWithTax = priceWithOutTax * vatRate;
+        double vatAmount = priceWithTax - priceWithOutTax;
         System.out.println("priceWithOutTax = " + priceWithOutTax);
-        System.out.println("priceWithTax = " + String.format("%.2f",priceWithTax));
+        System.out.println("priceWithTax = " + String.format("%.2f", priceWithTax));
         System.out.println("vatAmount = " + String.format("%.2f", vatAmount));
 
     }
