@@ -21,6 +21,8 @@ public class ExamResult {
         System.out.println("Please enter your music point");
         double mus = input.nextDouble();
 
+        //calculate average
+        double avr = (math + physics + chem + eng + hist + mus) / 6;
 
 
 
