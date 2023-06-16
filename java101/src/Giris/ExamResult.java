@@ -25,6 +25,10 @@ public class ExamResult {
         double avr = (math + physics + chem + eng + hist + mus) / 6;
         //added boolean for result check
         boolean passed = avr >=60;
+        //added result check
+        String result = passed ? "Passed" : "Failed";
+        //print avg and result
+        System.out.println("Your average point is " + avr + "\nYour result is \n" + result) ;
 
 
 
