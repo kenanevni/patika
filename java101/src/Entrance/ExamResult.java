@@ -1,4 +1,4 @@
-package Giris;
+package Entrance;
 import java.util.Scanner;
 
 public class ExamResult {

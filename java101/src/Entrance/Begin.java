@@ -1,4 +1,4 @@
-package Giris;
+package Entrance;
 
 public class Begin {
     public static void main (String [] anything){
