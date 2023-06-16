@@ -7,6 +7,26 @@ public class ExamResult {
         //create Scanner for input
         Scanner input = new Scanner(System.in);
 
+        //Lets get lesson points from user
+        System.out.println("Please enter your math point");
+        double math = input.nextDouble();
+        System.out.println("Please enter your phsyics point");
+        double physics = input.nextDouble();
+        System.out.println("Please enter your Chemistry point");
+        double chem = input.nextDouble();
+        System.out.println("Please enter your english point");
+        double eng = input.nextDouble();
+        System.out.println("Please enter your history point");
+        double hist = input.nextDouble();
+        System.out.println("Please enter your music point");
+        double mus = input.nextDouble();
+
+
+
+
+
+
+
 
 
     }
