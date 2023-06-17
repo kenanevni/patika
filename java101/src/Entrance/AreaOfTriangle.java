@@ -18,7 +18,7 @@ public class AreaOfTriangle {
         //formula u = halfPerimeter , area= √(u(u-a)(u-b)(u-c))
         halfPerimeter = (sideA + sideB + sideC) / 2;
         area = Math.sqrt(halfPerimeter * (halfPerimeter - sideA) * (halfPerimeter - sideB) * (halfPerimeter - sideC));
-        System.out.printf("Area of triangle", area);
+        System.out.println("Area of triangle = " + area);
 
 
     }
