@@ -11,6 +11,12 @@ public class AreaOfTriangle {
         double area;
         //formula area= √(u(u-a)(u-b)(u-c))
         //welcome message
+        System.out.println("Hi, please enter sides of triangle");
+        //take sides of triangle
+        sideA = input.nextInt();
+        sideB = input.nextInt();
+        sideC = input.nextInt();
+
 
 
     }
