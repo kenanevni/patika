@@ -10,6 +10,7 @@ public class AreaOfTriangle {
         int sideA, sideB, sideC, halfPerimeter;
         double area;
         //formula area= √(u(u-a)(u-b)(u-c))
+        //welcome message
 
 
     }
