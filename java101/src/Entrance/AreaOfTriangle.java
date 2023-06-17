@@ -9,14 +9,16 @@ public class AreaOfTriangle {
         //define variables
         int sideA, sideB, sideC, halfPerimeter;
         double area;
-        //formula area= √(u(u-a)(u-b)(u-c))
         //welcome message
         System.out.println("Hi, please enter sides of triangle");
         //take sides of triangle
         sideA = input.nextInt();
         sideB = input.nextInt();
         sideC = input.nextInt();
-
+        //formula u = halfPerimeter , area= √(u(u-a)(u-b)(u-c))
+        halfPerimeter = (sideA + sideB + sideC) / 2;
+        area = Math.sqrt(halfPerimeter * (halfPerimeter - sideA) * (halfPerimeter - sideB) * (halfPerimeter - sideC));
+        System.out.printf("Area of triangle", area);
 
 
     }
