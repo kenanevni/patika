@@ -16,8 +16,10 @@ public class TaxiMeter {
         double amount,total,tripLength;
         int starterCost = 10;
         int basePayment = 20;
-        System.out.println("Welcome to Taximeter, Please enter Your Trip Length")
+        System.out.println("Welcome to Taximeter, Please enter Your Trip Length");
         tripLength = input.nextDouble();
+        amount = (costPerKm * tripLength) + starterCost;
+        System.out.println("amount = " + amount);
 
     }
 }
