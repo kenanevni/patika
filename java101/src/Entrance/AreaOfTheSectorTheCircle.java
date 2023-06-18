@@ -8,11 +8,13 @@ public class AreaOfTheSectorTheCircle {
         double angle,radius,area;
         double pi = 3.14;
         //take radius from user
-        System.out.print("Please enter radius");
+        System.out.print("Please enter radius ");
         radius = input.nextDouble();
         //take angle of the circle
-        System.out.print("Please enter angle");
+        System.out.print("Please enter angle ");
         angle = input.nextDouble();
+        area = (pi*radius*radius*angle)/360;
+        System.out.println("area = " + String.format("%.2f", area));
 
     }
 }
