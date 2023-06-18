@@ -12,5 +12,12 @@ import java.util.Scanner;
 public class TaxiMeter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        double costPerKm = 2.2;
+        double amount,total,tripLength;
+        int starterCost = 10;
+        int basePayment = 20;
+        System.out.println("Welcome to Taximeter, Please enter Your Trip Length")
+        tripLength = input.nextDouble();
+
     }
 }
