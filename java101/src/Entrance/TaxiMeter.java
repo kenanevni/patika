@@ -19,7 +19,10 @@ public class TaxiMeter {
         System.out.println("Welcome to Taximeter, Please enter Your Trip Length");
         tripLength = input.nextDouble();
         amount = (costPerKm * tripLength) + starterCost;
-        System.out.println("amount = " + amount);
+        System.out.println("amount = " + String.format("%.2f",amount));
+        total = amount > basePayment ? amount:basePayment;
+        System.out.println("total = " + String.format("%.2f",total));
+        System.out.println("Thank you for choosing us. See you on your next trip.");
 
     }
 }
