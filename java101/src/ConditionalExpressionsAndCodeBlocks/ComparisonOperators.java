@@ -43,6 +43,17 @@ public class ComparisonOperators {
         System.out.println(b < d);
         System.out.println(c < d);
 
+        // >= greater-than or Equal
+
+        System.out.println(">= greater-than or Equal operator");
+        System.out.println(a >= b);
+        System.out.println(a >= c);
+        System.out.println(a >= d);
+        System.out.println(b >= c);
+        System.out.println(b >= d);
+        System.out.println(c >= d);
+
+
 
 
 
