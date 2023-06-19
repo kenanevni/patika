@@ -24,6 +24,18 @@ public class ComparisonOperators {
         System.out.println(b != c);
         System.out.println(b != d);
         System.out.println(c != d);
+
+        // > greater-than
+        System.out.println("greater than operator");
+        System.out.println(a > b);
+        System.out.println(a > c);
+        System.out.println(a > d);
+        System.out.println(b > c);
+        System.out.println(b > d);
+        System.out.println(c > d);
+
+
+
     }
 
 
