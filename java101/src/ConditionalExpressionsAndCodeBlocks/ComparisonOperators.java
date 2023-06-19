@@ -1,0 +1,21 @@
+package ConditionalExpressionsAndCodeBlocks;
+
+public class ComparisonOperators {
+    public static void main(String[] args){
+        int a = 10;
+        int b = 20;
+        int c = 10;
+        int d = 40 ;
+
+        // == equal
+        System.out.println(a == b);
+        System.out.println(a == c);
+        System.out.println(a == d);
+        System.out.println(b == c);
+        System.out.println(b == d);
+        System.out.println(c == d);
+    }
+
+
+
+}
