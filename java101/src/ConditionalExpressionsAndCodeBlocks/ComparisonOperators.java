@@ -8,12 +8,22 @@ public class ComparisonOperators {
         int d = 40 ;
 
         // == equal
+        System.out.println("equal operator");
         System.out.println(a == b);
         System.out.println(a == c);
         System.out.println(a == d);
         System.out.println(b == c);
         System.out.println(b == d);
         System.out.println(c == d);
+
+        // != not equal
+        System.out.println("not equal operator");
+        System.out.println(a != b);
+        System.out.println(a != c);
+        System.out.println(a != d);
+        System.out.println(b != c);
+        System.out.println(b != d);
+        System.out.println(c != d);
     }
 
 
