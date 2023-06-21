@@ -18,6 +18,31 @@ public class ExamResult {
         if ((math >= 0) && (math <= 100)) {
             total += math;
         }
+        System.out.println("Please enter your phsyics point : ");
+        physics = input.nextDouble();
+        if ((physics >= 0) && (physics <= 100)) {
+            total += physics;
+        }
+        System.out.println("Please enter your Chemistry point: ");
+        chem = input.nextDouble();
+        if ((chem >= 0) && (chem <= 100)) {
+            total += chem;
+        }
+        System.out.println("Please enter your english point : ");
+        eng = input.nextDouble();
+        if ((eng >= 0) && (eng <= 100)) {
+            total += eng;
+        }
+        System.out.println("Please enter your history point : ");
+        hist = input.nextDouble();
+        if ((hist >= 0) && (hist <= 100)) {
+            total += hist;
+        }
+        System.out.println("Please enter your music point : ");
+        mus = input.nextDouble();
+        if ((mus >= 0) && (mus <= 100)) {
+            total += mus;
+        }
 
 
     }
