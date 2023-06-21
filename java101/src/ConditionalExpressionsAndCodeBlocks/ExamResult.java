@@ -52,6 +52,5 @@ public class ExamResult {
             System.err.println("Sorry !!! Failed ");
         }
 
-
     }
 }
