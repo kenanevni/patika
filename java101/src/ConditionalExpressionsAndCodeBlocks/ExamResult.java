@@ -43,6 +43,14 @@ public class ExamResult {
         if ((mus >= 0) && (mus <= 100)) {
             total += mus;
         }
+        //calculate average
+        avg = total / 6;
+        System.out.println("Average = " + avg);
+        if (avg >= 55) {
+            System.out.println("Congrulutations!!! Passed");
+        }else {
+            System.err.println("Sorry !!! Failed ");
+        }
 
 
     }
