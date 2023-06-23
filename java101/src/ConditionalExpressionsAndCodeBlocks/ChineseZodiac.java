@@ -50,7 +50,6 @@ public class ChineseZodiac {
                 chineseZodiac = "Goat";
                 break;
         }
-        System.out.println("remainder = " + remainder);
         System.out.println("Your Chinese Zodiac is: " + chineseZodiac);
     }
 }
