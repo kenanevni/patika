@@ -12,6 +12,16 @@ public class FindEvenNumbers {
                 System.out.println(i + " is a even number");
             }
         }
+        System.out.println("////////////////////");
+        int i=0;
+        System.out.println("Please enter a number");
+        int l = input.nextInt();
+        while (i <= l) {
+            if (i % 2 == 0) {
+                System.out.println(i + " is a even number");
+            }
+            i++;
+        }
 
 
     }
