@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class PowersOf2 {
+public class PowersOfX {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Lets learn Powers of 2\n Please enter base number");
