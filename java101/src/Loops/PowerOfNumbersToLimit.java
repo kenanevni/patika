@@ -11,6 +11,14 @@ public class PowerOfNumbersToLimit {
         System.out.println("Please enter limit");
         int limit = scanner.nextInt();
         int k= 2;
+        do {
+            for (int i = 1,l =0; i < limit; i *= k,l++) {
+                System.out.println(k + " to " + l + ". power is " + i);
+            }
+            System.out.println("**********");
+            k++;
+
+        } while (k <= baseNumber);
 
 
 
