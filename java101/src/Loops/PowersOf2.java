@@ -8,6 +8,9 @@ public class PowersOf2 {
         System.out.println("Please enter limit");
         int limit = scan.nextInt();
 
+        for (int i = 1,k=0; i <=limit ; k++,i*=baseNumber) {
+            System.out.println(baseNumber + " to " + k +". power is " + i);
+
 
         }
     }
