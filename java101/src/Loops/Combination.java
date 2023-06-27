@@ -13,8 +13,8 @@ public class Combination {
         boolean isError = n > r && n > 0 && r > 0;
         int nFac = 1;
         int rFac = 1;
-        int nMinusrFac=1;
-        int com=0;
+        int nMinusrFac = 1;
+        int com = 0;
         //C(n,r) = n! / (r! * (n-r)!)
         if (isError) {
             for (int i = 1; i <= n; i++) {
@@ -25,15 +25,15 @@ public class Combination {
                 rFac = rFac * k;
             }
             System.out.println("rFac = " + rFac);
-            for (int l = 1; l <= (n-r); l++) {
+            for (int l = 1; l <= (n - r); l++) {
                 nMinusrFac = nMinusrFac * l;
             }
             System.out.println("nMinusrFac = " + nMinusrFac);
-            com = nFac/(rFac*nMinusrFac);
-            System.out.println("combination (" +n+", "+r+") is = "+ com);
+            com = nFac / (rFac * nMinusrFac);
+            System.out.println("combination (" + n + ", " + r + ") is = " + com);
 
-        } else System.out.println("one of them breached "+ n + " must > " + r + " and "+n+"  must > 0 and " +r +" " +
-                "must > 0");
+        } else
+            System.out.println("one of them breached " + n + " must > " + r + " and " + n + "  must > 0 and " + r + " " + "must > 0");
 
 
     }
