@@ -10,6 +10,11 @@ public class PowersOfN {
         System.out.println("Please enter r");
         int r = scan.nextInt();
         int result = 1;
+        for (int i = n, k = 0; k < r; k++) {
+
+            result *= i;
+        }
+        System.out.println("result = " + result);
 
     }
 }
