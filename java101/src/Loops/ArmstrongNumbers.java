@@ -13,6 +13,24 @@ public class ArmstrongNumbers {
                 System.out.println(number);
             }
         }
+        public static boolean isArmstrongNumber(int number) {
+
+            int tempNumber = number;
+            int sum = 0;
+            while (tempNumber != 0) {
+                int numericValueOfInput = tempNumber % 10;
+                int digitNumberPow = 1;
+                for (int i = 0; i < getNumberOfDigits(number); i++) {
+                    digitNumberPow *= numericValueOfInput;
+                }
+                sum += digitNumberPow;
+                tempNumber /= 10;
+            }
+            return sum == number;
+
+        }
+
+
     }
 
 
