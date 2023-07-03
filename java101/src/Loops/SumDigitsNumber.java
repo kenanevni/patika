@@ -11,5 +11,18 @@ public class SumDigitsNumber {
 
 
     }
+    public static int sumDigitsNumber(int number) {
+        int tempNumber;
+        int sum = 0;
+
+        while (number != 0) {
+            tempNumber = number % 10;
+            sum += tempNumber;
+            number /= 10;
+
+        }
+        return sum;
+
+    }
 
 }
