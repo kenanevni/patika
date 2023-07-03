@@ -11,6 +11,7 @@ public class SumDigitsNumber {
 
 
     }
+
     public static int sumDigitsNumber(int number) {
         int tempNumber;
         int sum = 0;
