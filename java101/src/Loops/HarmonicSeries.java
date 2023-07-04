@@ -10,6 +10,7 @@ public class HarmonicSeries {
         System.out.println("Here is the harmonic series and sum of it");
         System.out.println(harmonicSeries(number));
     }
+
     public static double harmonicSeries(double number) {
         double sum = 0;
         for (double i = 1; i <= number; i++) {
