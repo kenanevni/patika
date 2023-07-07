@@ -2,7 +2,7 @@ package Loops;
 
 import java.util.Scanner;
 
-public class AtmWithForLoop {
+public class AtmWithIf {
     public static int balance;
     public static int attemp = 3;
 
