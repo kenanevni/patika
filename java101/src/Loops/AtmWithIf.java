@@ -46,7 +46,7 @@ public class AtmWithIf {
                 }
             }
         }
-        input.close();
+
 
     }
 
@@ -66,7 +66,7 @@ public class AtmWithIf {
         } else if (select == 3) {
             System.out.println("balance = " + balance);
         }
-        input.close();
+
     }
 
     public static int deposit(int money) {
