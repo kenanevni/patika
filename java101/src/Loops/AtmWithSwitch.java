@@ -70,6 +70,10 @@ public class AtmWithSwitch {
             case 3:
                 System.out.println("balance = " + balance);
                 break;
+            default:
+                System.out.println("balance = " + balance);
+
+
         }
 
     }
