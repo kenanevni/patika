@@ -13,6 +13,7 @@ public class LCMAndHCFWithForLoop {
         System.out.println("Least Common Multiple (LCF) = " + lcf(a, b));
 
     }
+
     //Highest Common Factor of two integer
     public static int hcf(int a, int b) {
         int remainder = 1;
@@ -30,6 +31,7 @@ public class LCMAndHCFWithForLoop {
         return a;
 
     }
+
     //Least Common Multiple
     public static int lcf(int a, int b) {
         int lcf = (a * b) / hcf(a, b);
