@@ -28,6 +28,11 @@ public class LCMAndHCFWithForLoop {
         return a;
 
     }
+    //Least Common Multiple
+    public static int lcf(int a, int b) {
+        int lcf = (a * b) / hcf(a, b);
+        return lcf;
+    }
 
 
 }
