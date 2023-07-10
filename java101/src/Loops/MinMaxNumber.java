@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class MinMaxNumber {
     public static void main(String[] args) {
-        int min=2147483647;
-        int max = -2147483648 ;
+        int min = 2147483647;
+        int max = -2147483648;
         int numbers;
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Min and Max Number Finder");
