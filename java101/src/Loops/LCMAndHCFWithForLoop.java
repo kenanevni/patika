@@ -9,6 +9,8 @@ public class LCMAndHCFWithForLoop {
         System.out.println("Please enter two integer");
         int a = input.nextInt();
         int b = input.nextInt();
+        System.out.println("Highest Common Factor (HCF) = " + hcf(a, b));
+        System.out.println("Least Common Multiple (LCF) = " + lcf(a, b));
 
     }
     //Highest Common Factor of two integer
