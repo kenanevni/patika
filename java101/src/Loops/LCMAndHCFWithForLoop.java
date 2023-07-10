@@ -17,7 +17,6 @@ public class LCMAndHCFWithForLoop {
     //Highest Common Factor of two integer
     public static int hcf(int a, int b) {
         int remainder = 1;
-        int temp;
         Scanner input = new Scanner(System.in);
 
 
