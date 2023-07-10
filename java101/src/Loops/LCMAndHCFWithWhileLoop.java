@@ -18,7 +18,7 @@ public class LCMAndHCFWithWhileLoop {
     public static int hcf(int a, int b) {
         int remainder = 1;
         Scanner input = new Scanner(System.in);
-        while(remainder>0){
+        while (remainder > 0) {
             remainder = a % b;
             a = b;
             b = remainder;
