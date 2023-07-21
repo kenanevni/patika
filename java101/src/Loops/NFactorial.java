@@ -7,6 +7,13 @@ public class NFactorial {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a positive integer ");
         int n = scanner.nextInt();
+       int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial*=i;
+
+        }
+        System.out.println("factorial = " + factorial);
+
 
     }
 }
