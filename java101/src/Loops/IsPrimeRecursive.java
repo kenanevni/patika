@@ -1,7 +1,7 @@
 package Loops;
 import java.util.Scanner;
 
-public class isPrimeRecursive {
+public class IsPrimeRecursive {
 
     static boolean isPrime(int num, int divisor) {
         if (divisor <= 1) {
